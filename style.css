@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Tahoma, serif;
+    margin: 0;
+}
+#main{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-color: #333;
+    height: 39px;
+    color: #fff;
+}
+.header-span{
+  padding: 10px 10px;
+  display: inline-block;
+  font-weight: 200;
+}
+.header-span:hover{
+    cursor: pointer;
+    color: blue;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 700px;
+}
+.right{
+    width: 300px;
+}
+.left-body--img{
+    width: 640px;
+    height: 370px;
+}
+.left-tieude{
+    border-bottom: 2px #ccc solid;
+}
+.right-tieude{
+    border-bottom: 2px #ccc solid;
+}
